@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T06:30:54.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bDv_bOQr_RW9-sy6QfSi" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T00:17:11.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_d_1btAFmGgZUTV6WjO8" version="14.6.12" type="github">
   <diagram id="3cSUo8mkEh30zOjuuMmQ" name="第 1 页">
-    <mxGraphModel dx="819" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="818" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,6 +226,64 @@
         </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-39" value="new &lt;br&gt;ReplicaManager()" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="313" y="1145" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-40" value="计算新生代所有对象占用内存大小：YAO" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1350" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-41" target="2se0amG7salCB8GQBk9N-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-41" value="计算老年代当前剩余空间的内存大小：ORO" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="203" y="1460" width="247" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-56" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="326.5" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-43" value="" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="243" y="1570" width="167" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-46" value="YAO&amp;gt;ORO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="1600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325.75" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-48" value="计算新生代每次Minor&amp;nbsp;GC后进入到老年代对象大小的平均值：YTOR" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="225.75" y="1850" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325.75" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-50" value="YTOR&amp;lt;ORO" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="276.75" y="1960" width="98" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-57" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325.75" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-52" value="" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="191.5" y="1709" width="268.5" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-53" value="是否有设置-XX:-HandlePromotionFailure参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="1720" width="169" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-60" value="进行Minor&amp;nbsp;GC" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="264.75" y="2090" width="122" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-61" value="GC后的存活对象小于" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2170" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

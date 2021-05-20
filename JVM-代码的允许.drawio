@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T00:17:11.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_d_1btAFmGgZUTV6WjO8" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T00:41:44.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="weMuppX8KpPT1WWhq2PU" version="14.6.12" type="github">
   <diagram id="3cSUo8mkEh30zOjuuMmQ" name="第 1 页">
     <mxGraphModel dx="818" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,6 +246,20 @@
             <mxPoint x="326.5" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-43" target="2se0amG7salCB8GQBk9N-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="2030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="1610" />
+              <mxPoint x="750" y="2110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-72" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2se0amG7salCB8GQBk9N-71">
+          <mxGeometry x="-0.876" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-43" value="" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="243" y="1570" width="167" height="80" as="geometry" />
         </mxCell>
@@ -260,9 +274,22 @@
         <mxCell id="2se0amG7salCB8GQBk9N-48" value="计算新生代每次Minor&amp;nbsp;GC后进入到老年代对象大小的平均值：YTOR" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="225.75" y="1850" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2se0amG7salCB8GQBk9N-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-50">
+        <mxCell id="2se0amG7salCB8GQBk9N-59" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-50">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="325.75" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-50" target="2se0amG7salCB8GQBk9N-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1995" />
+              <mxPoint x="150" y="2533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-78" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2se0amG7salCB8GQBk9N-77">
+          <mxGeometry x="-0.8987" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-50" value="YTOR&amp;lt;ORO" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -273,17 +300,110 @@
             <mxPoint x="325.75" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-52" target="2se0amG7salCB8GQBk9N-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="2510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1745" />
+              <mxPoint x="90" y="2545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-75" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2se0amG7salCB8GQBk9N-74">
+          <mxGeometry x="-0.9297" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-52" value="" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="191.5" y="1709" width="268.5" height="71" as="geometry" />
         </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-53" value="是否有设置-XX:-HandlePromotionFailure参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="245.5" y="1720" width="169" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325.75" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2se0amG7salCB8GQBk9N-60" value="进行Minor&amp;nbsp;GC" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="264.75" y="2090" width="122" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2se0amG7salCB8GQBk9N-61" value="GC后的存活对象小于" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="290" y="2170" width="80" height="80" as="geometry" />
+        <mxCell id="2se0amG7salCB8GQBk9N-63" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="326.5" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-61" target="2se0amG7salCB8GQBk9N-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="2245" />
+              <mxPoint x="770" y="2840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-81" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2se0amG7salCB8GQBk9N-80">
+          <mxGeometry x="-0.9114" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-61" value="Minor GC后的存活对象是否大于Survivor区域" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="2210" width="247.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-65" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="2640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="2420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-84" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2se0amG7salCB8GQBk9N-83">
+          <mxGeometry x="-0.5897" y="4" relative="1" as="geometry">
+            <mxPoint x="3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-64" value="&lt;span&gt;Minor GC后的存活对象是否大于ORO区域&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="212" y="2390" width="235" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332.875" y="2630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-66" value="进行Full GC，对老年代进行垃圾回收，如果此时还未Minor&amp;nbsp;GC过，同时对新生代进行Minor&amp;nbsp;GC" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="225.75" y="2520" width="214.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-93" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-96" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-68" value="Full&amp;nbsp;GC后，Minor&amp;nbsp;GC后的存活对象是否还大于ORO区域" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="168" y="2640" width="324" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-70" value="对不起，内存溢出" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="276.75" y="2820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-79" value="相安无事" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="603" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2se0amG7salCB8GQBk9N-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663" y="2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2se0amG7salCB8GQBk9N-82" value="Minor&amp;nbsp;GC后的存活对象进入到老年代" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="563" y="2667.5" width="200" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
